@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Encoder - Decoder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="main-body">
+            <div class="forms">
+                <div class="input-form">
+                    <select id="drop-down" size="1" >
+                        <option selected value="">Select Encoding Type</option>
+                        <option   value="Text to Binary">Text to Binary</option>
+                        <option   value="Text to Base64">Text to Base64</option>
+                        <option   value="Text to Hex">Text to Hex</option>
+                    </select>
+                    <h2 id="header">Encoding Type</h2>
+                    <textarea id="input" placeholder="Plain Text Here"></textarea>
+                </div>
+                <div class="output-form">
+                    <div class="buttons">
+                        <button id="convert-btn">Convert</button>
+                        <button id="clear-btn">Clear</button>
+                    </div>
+                    <textarea id="output" placeholder="Encoded String" readonly></textarea>
+                    <div class="copy-btn">
+                        <button id="copy">Copy</button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>  

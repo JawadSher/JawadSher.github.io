@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Hind:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.473), #009687b7),  url(assets/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header_container nav {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    align-items: end;
+    padding: 0 5%;
+}
+
+#logo{
+    cursor: pointer;
+    width: 170px;
+    height: 50px;
+}
+#menu{
+    cursor: pointer;
+    width: 43px;
+    height: 45px;
+    padding: 11.3px;
+    background-color: #009688;
+    border-radius: 5px;
+    position: sticky;
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 100px;
+}
+.text h1{
+    font-size: 150px;
+}
+.text p{
+    font-size: 30px;
+    color: rgb(23, 189, 125);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+    height: 20vh;
+}
+.buttons p{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+    border: 2px solid white;
+    padding:3px 10px;
+    color: white;
+    border-radius: 5px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn1:hover{
+    transform: scale(1.1);
+    transition-duration: 100ms;
+    cursor: pointer;
+    background-color: #07302dd7;
+}
+#btn2:hover{
+    transform: scale(1.1);
+    transition-duration: 100ms;
+    cursor: pointer;
+    background-color: #07302dd7;
+}
+
+        
+        /* Header End */
+
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100vh;  
+}
+.main_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* justify-content: center; */
+}
+.main_container .text1{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding-top: 1%;
+}
+.features{
+    display: flex;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family:sans-serif;
+    font-variant: small-caps;
+    color: #116159f8;
+}
+
+.text1 img{
+    width: 50px;
+}
+
+.why_choose_us{
+    width: 100%;
+    height:10vh;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Hind', sans-serif;
+}
+.why_choose_us p{
+    font-weight: 900;
+    color: rgb(64, 71, 69);
+}
+
+.main_data_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 77%;
+    /* background-color: gray; */
+    align-self: end;
+    color: white;
+    padding-bottom: 1%;
+}
+
+.left_area{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    /* background-color: rgb(65, 38, 139); */
+}
+.info{
+    display: flex;
+    width: 70%;
+    height: 90%;
+    /* background-color: white; */
+    align-self: center;
+    justify-content: start;
+}
+#title1{
+    margin-left: 5px;
+    display: flex;
+    width: 100%;
+    height: 5vh;
+}
+.info #title1{
+    color: black;
+    font-family:'Hind', sans-serif;
+    color: #134d47;
+}
+#title1 h3{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.title1_data{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    color: black;
+}
+#icon{
+    display: flex;
+    width: 10%;
+    height: 7vh;
+    /* border: 1px solid black; */
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #009688;
+}
+#icon img{
+    filter: invert(100%);
+}
+#data{
+    width: 89%;
+    line-height: 20px;
+    font-size: 18px;
+    color: #202020;
+    padding: 1%;
+}
+.title1_data img{
+    width: 50px;
+}
+
+.right_area{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+.right_area img{
+    border-radius: 10px;
+    min-height: 650px;
+    height: 650px;
+}
+
+
+
+.main_second_container{
+    display: flex;
+    width: 100%;
+    height: 98vh;
+    /* justify-content: center; */
+    background-color:#c4ece8;
+    margin: auto;
+
+}
+.main_second_container .text_1{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding-top: 1%;
+}
+.services{
+    display: flex;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family:sans-serif;
+    font-variant: small-caps;
+    color: #116159f8;
+}
+
+.text_1 img{
+    width: 50px;
+}
+
+.we-provid-better{
+    width: 100%;
+    height:10vh;
+    font-size: 70px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Hind', sans-serif;
+}
+.we-provid-better p{
+    font-weight: 900;
+    color: rgb(64, 71, 69);
+}
+
+.second_main_data_container{
+    width: 80%;
+    height: 75%;
+    color: white;
+    padding-bottom: 1%;
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.data1{
+    width:90%;
+    height: 90%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.data1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.overlay1{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.562), #009688);
+    opacity: 0;
+    position: absolute; /* Add this line */
+    top: 0; /* Add this line */
+    left: 0; /* Add this line */
+    z-index: 1; /* Add this line to make sure the overlay appears above the image */
+    transition: opacity 1s ease; 
+    border-radius: 10px;
+}
+
+.overlay1:hover {
+    opacity: 1;
+}
+.service-desc{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+    text-align: center;
+    display: block;
+}
+hr{
+    background: #FFF;
+    height: 2px;
+    margin: 8px auto;
+    border: 0;
+    width: 60%;
+}
+.service-desc h3{
+    font-family: 'Hind', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+.service-desc p{
+    font-size: 16px;
+    font-family: 'Hind', sans-serif;
+}
+.data1:hover .service-desc{
+    bottom: 20%;
+    opacity: 1;
+}
+
+.testimonial{
+    width: 100%;
+    height: 100vh;
+}

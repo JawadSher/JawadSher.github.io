@@ -1,0 +1,176 @@
+	
+	body{
+	    width: 100%;
+	    height: 100vh;
+	}
+    *{
+        flex-wrap: wrap;
+    }
+    
+	.clock_container{
+	    width: 60%;
+	    min-height: 20%;
+        height: fit-content;
+	    background-color: rgb(32, 32, 32);
+	    display: flex;
+        justify-content: center;
+        align-items: center;
+	    margin: auto;
+	    margin-top: 200px;
+	    border-radius: 10px;
+        padding: 20px;
+	}
+	.clock{
+	    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Hind:wght@300;400;500;600&family=Noto+Nastaliq+Urdu&family=Orbitron:wght@400;500;600;700&display=swap');
+	    width: 50%;
+	    height: 100%;
+	    border-radius: 30px;
+	    color: rgb(39, 204, 39);
+	    font-family: 'Orbitron', sans-serif;
+	    /* background-color: red; */
+	    /* margin: auto; */
+	}
+	.time{
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    font-size: 100px;
+	    gap: 6px;
+	    font-weight: 600;
+	    width: 100%;
+	    height: 70%;
+	}
+	#am-pm{
+	    font-size: 30px;
+	    padding-top: 40px;
+	    font-weight: 100;
+	}
+	.date{
+	    display: flex;
+	    justify-content: center;
+	    width: 100%;
+	    height: 100%;
+	    /* background-color: red; */
+	    gap: 6px;
+	    color: white;
+	    font-size: 25px;
+	}
+	#days{
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: row;
+	}
+	.months{
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: row;
+	}
+	#month{
+	    padding-right: 3px;
+	}
+
+.timer{
+    display: flex;
+}
+
+.alarm-clock{
+    width:500px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family:sans-serif;
+    gap: 10px;
+}
+.timer{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    column-gap: 40px;
+}
+#hour{
+    width: 70px;
+    height: 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.hours{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.minutes{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#minute{
+    width: 70px;
+    height: 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.setted_time{
+    width: 60%;
+    height: 40px;
+    background-color: rgb(59, 59, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.setted_time p{
+    display: flex;
+    margin: auto;
+}
+
+#set_timer{
+    width: 170px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(4, 145, 4);
+    color: white;
+    cursor: pointer;
+}
+#set_timer:hover{
+    background-color:rgb(6, 190, 6) ;
+}
+#set_timer:active{
+    background-color:rgb(4, 255, 4) ;
+}
+#clear_timer{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(4, 101, 190);
+    color: white;
+    cursor: pointer;
+}
+#clear_timer:hover{
+    background-color:  rgb(5, 134, 255);
+}
+#clear_timer:active{
+    background-color:  rgb(5, 155, 255);
+}

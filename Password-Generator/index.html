@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="password-container">
+        <div class="heading">
+            <h1>Secure Password Generator</h1>
+        </div>
+        <div class="password-area">
+            <div class="password-form">
+                <div class="password">
+                    <p id="pass">Generated Password Here ....</p>
+                    <img src="copy.png" alt="" id="copy-pass" onclick="copy()"> 
+                </div>
+                <button id="button1" onclick="generate_password()"> Generate Password</button>
+
+            </div>
+            <p id="copied-pass"></p>
+        </div>
+        <div class="password-config-area">
+            <div class="configurations">
+                <form>
+                   <div class="conf1">
+                    <input type="checkbox" id="numbers" name="numbers" value="nums" >
+                    <label for="numbers">Numbers</label>
+                   </div>
+
+                   <div class="conf2">
+                    <input type="checkbox" id="special-characters" name="special-characters" value="Symbols">
+                    <label for="special-characters">Symbols</label>
+                   </div>
+
+                   <div class="conf3">
+                    <input type="checkbox" id="Characters" name="Characters" value="Characters">
+                    <label for="Characters">Characters</label>
+                   </div>
+
+                  <div class="conf4">
+                    <input type="range" id="length" name="length" value="length" min="8" max="100">
+                    <p>(<label for="length" id="pass-length"></label>)</p>
+                    <label for="length">length</label>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

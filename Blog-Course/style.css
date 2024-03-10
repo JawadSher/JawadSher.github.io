@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;600&family=Poppins:ital,wght@0,300;0,500;0,700;0,800;1,400;1,700&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@400;600&family=Poppins:ital,wght@0,300;0,500;0,700;0,800;1,400;1,700&family=Roboto+Slab:wght@700&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    flex-wrap: wrap;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(7, 5, 27, 0.747);
+    /* flex-direction: row; */
+
+}
+
+.section1{
+    background-image: url(assets/BG-image.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+header{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 280px;
+}
+header img{
+    width: 120px;
+}
+
+
+nav a{
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+    text-decoration: none;
+    font-weight: 999;
+    font-size: 14px;
+    color: white;
+    /* border: 2px solid white; */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(91, 93, 112);
+    border-radius: 10px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+
+.text-area h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-variant: normal;
+    font-weight: 900;
+    color: white;
+}
+.text-area p{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.text-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.text-area a{
+    margin-top: 20px;
+    border: 2px solid rgba(153, 150, 150, 0.932);
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text-area a:hover{
+    background-color: rgba(177, 31, 31, 0.774);
+    border: rgba(110, 33, 33, 0.774) ;
+    transition: ease-in;
+    transition-duration: 0.3s;
+}
+
+.overlay1{
+    width: 100%;
+    height: 100vh;
+}
+
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+
+main h1{
+    font-size: 45px;
+    font-family: 'Roboto Slab', serif;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+main p{
+    margin-right: 40px;
+    margin-left: 40px;
+    
+}
+
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+.text h1{
+    font-size: 42px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    color: white;
+    gap: 40px;
+    padding: 0 50px;
+}
+
+
+.offers:hover{
+   box-shadow:0 0 15px  rgba(0, 0, 0, 0.733)
+}
+
+
+.cards #card1{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(8, 23, 65, 0.829);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+#card1 h3{
+    text-align: center;
+    margin: 10%;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#card1 p{
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+
+}
+.cards #card2{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(8, 23, 65, 0.829);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+#card2 h3{
+    text-align: center;
+    margin: 10%;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#card2 p{
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+
+}
+.cards #card3{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(8, 23, 65, 0.829);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+#card3 h3{
+    text-align: center;
+    margin: 10%;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#card3 p{
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+
+}
+.cards #card4{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(8, 23, 65, 0.829);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+#card4 h3{
+    text-align: center;
+    margin: 10%;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#card4 p{
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+
+}
+.cards #card5{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(8, 23, 65, 0.829);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+#card5 h3{
+    text-align: center;
+    margin: 10%;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#card5 p{
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+
+}
+.cards #card6{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(8, 23, 65, 0.829);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+#card6 h3{
+    text-align: center;
+    margin: 10%;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#card6 p{
+    font-size: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+
+.section3{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.text-area3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    padding: 0 100px;
+}
+.text-area3 h1{
+    font-size: 42px;
+    font-family: 'Roboto Slab', serif;
+}
+.text-area3 p{
+    padding: 0 70px;
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.col img{
+    width: 100%;
+    display: block;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition:0.5s;
+}
+
+.layer:hover{
+    background-color: rgba(255, 0, 0, 0.425);
+}

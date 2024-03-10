@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title"></div>
+      <div class="language-select">
+        <div class="from">
+          <button id="from">Select Language</button>
+          <div class="drop-down">
+            <ul>
+              <li>English</li>
+              <li>Mandarin Chinese</li>
+              <li>Spanish</li>
+              <li>Hindi</li>
+              <li>Urdu</li>
+              <li>Arabic</li>
+              <li>French</li>
+              <li>Russian</li>
+              <li>Portuguese</li>
+              <li>German</li>
+              <li>Japanese</li>
+            </ul>
+          </div>
+
+          <svg
+            id="from-down-arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path d="M480-360 280-560h400L480-360Z" />
+          </svg>
+        </div>
+        <svg
+          id="swap"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          viewBox="0 -960 960 960"
+          width="24"
+        >
+          <path
+            d="M280-160 80-360l200-200 56 57-103 103h287v80H233l103 103-56 57Zm400-240-56-57 103-103H440v-80h287L624-743l56-57 200 200-200 200Z"
+          />
+        </svg>
+
+        <div class="to">
+          <button id="to">Select Language</button>
+          <div class="drop-down">
+            <ul>
+              <li>English</li>
+              <li>Mandarin Chinese</li>
+              <li>Spanish</li>
+              <li>Hindi</li>
+              <li>Arabic</li>
+              <li>Urdu</li>
+              <li>French</li>
+              <li>Russian</li>
+              <li>Portuguese</li>
+              <li>German</li>
+              <li>Japanese</li>
+            </ul>
+          </div>
+
+          <svg
+            id="to-down-arrow"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 -960 960 960"
+            width="24"
+          >
+            <path d="M480-360 280-560h400L480-360Z" />
+          </svg>
+        </div>
+      </div>
+      <div class="translate">
+        <div class="input">
+            <textarea  id="input-field" placeholder="Enter Text"></textarea>
+            
+            <svg id="clear-btn" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m336-280-56-56 144-144-144-143 56-56 144 144 143-144 56 56-144 143 144 144-56 56-143-144-144 144Z"/></svg>
+
+        </div>
+        <div class="output-field">
+          <textarea  id="output-field" placeholder="Translation" readonly></textarea>
+          <svg id="copy" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M360-240q-33 0-56.5-23.5T280-320v-480q0-33 23.5-56.5T360-880h360q33 0 56.5 23.5T800-800v480q0 33-23.5 56.5T720-240H360Zm0-80h360v-480H360v480ZM200-80q-33 0-56.5-23.5T120-160v-560h80v560h440v80H200Zm160-240v-480 480Z"/></svg>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
